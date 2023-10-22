@@ -1,1 +1,1 @@
-# MimMax-Algorithm-App
+# MimMax Algorithm App
