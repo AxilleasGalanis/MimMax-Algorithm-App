@@ -32,4 +32,6 @@ the file is read successfully, the message "OK" is printed.
 
 ● **-c :** The MinMax algorithm is computed for the tree. Provides the path of nodes from the root to the leaves, leading to the optimal selection determined by the algorithm.
 
-● **-p :** The MinMax algorithm with alpha-beta pruning is computed for the tree. Furnishes the ratio of total nodes to pruned nodes \[Total, Pruned\], and also provides the path of nodes from the root to the leaves, which leads to the optimal selection as determined by the algorithm.
+● **-p :** The MinMax algorithm with the alpha-beta pruning enhancement is computed for the tree. Presents the ratio of total nodes to pruned nodes \[Total, Pruned\], and also provides the path of nodes from the root to the leaves, which leads to the optimal selection as determined by the algorithm.
+
+● **-c :** Quits the program.
