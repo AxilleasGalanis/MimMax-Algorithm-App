@@ -13,18 +13,13 @@ java -cp .:filepath/to/json/file/json-simple-1.1.1.jar MinMax
 ```
 # Usage
 The application on repeat prints the options menu below:
-
+```
 -i <filename> : insert tree from file
-
 -j [<filename>] : print tree in the specified filename using JSON format
-
 -d [<filename>] : print tree in the specified filename using DOT format
-
 -c : calculate tree using min-max algorithm
-
 -p : calculate tree using min-max and alpha-beta pruning optimization
-
 -q : quit this program
 
-
 $>
+```
