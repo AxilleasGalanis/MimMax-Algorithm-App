@@ -23,3 +23,4 @@ The application on repeat prints the options menu below:
 
 $>
 ```
+● **-i \<filename> :**
