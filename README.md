@@ -26,4 +26,4 @@ $>
 ● **-i \<filename> :** The program parses and retrieves the data from the file located at <filepath>. if
 the file is read successfully, the message "OK" is printed.
 
-● **-j [<filename>] :**
+● **-j \[<filename>] :**
