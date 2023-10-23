@@ -1,16 +1,6 @@
 # MimMax Algorithm Application
 This application showcases the MinMax algorithm enhanced by alpha-beta pruning. To execute the program make sure to download and import the [org.json](https://repo1.maven.org/maven2/org/json/json/20230227/json-20230227.jar) library. Furthermore, sample trees in JSON format are available within the "Sample" folder.
 
-# Compilation and Execution
-First of all download the the [org.json](https://repo1.maven.org/maven2/org/json/json/20230227/json-20230227.jar) library. Then
-compile the file using the command:
-```
-javac -cp .:filepath/to/json/file/json-simple-1.1.1.jar MinMax/MinMax.java 
-```
-Execute the program using the command:
-```
-java -cp .:filepath/to/json/file/json-simple-1.1.1.jar MinMax/MinMax
-```
 # Usage
 The application on repeat prints the options menu below:
 ```
@@ -34,4 +24,16 @@ the file is read successfully, the message "OK" is printed.
 
 ● **-p :** The MinMax algorithm with the alpha-beta pruning enhancement is computed for the tree. Presents the ratio of total nodes to pruned nodes \[Total, Pruned\], and also provides the path of nodes from the root to the leaves, which leads to the optimal selection as determined by the algorithm.
 
-● **-c :** Quits the program.
+● **-q :** Quits the program.
+
+
+# Compilation and Execution
+First of all download the the [org.json](https://repo1.maven.org/maven2/org/json/json/20230227/json-20230227.jar) library. Then
+compile the file using the command:
+```
+javac -cp .:filepath/to/json/file/json-simple-1.1.1.jar MinMax/MinMax.java 
+```
+Execute the program using the command:
+```
+java -cp .:filepath/to/json/file/json-simple-1.1.1.jar MinMax/MinMax
+```
