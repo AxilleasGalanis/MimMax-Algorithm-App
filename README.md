@@ -13,7 +13,7 @@ The application on repeat prints the options menu below:
 
 $>
 ```
-● **-i \<filename> :** The program parses and retrieves the data from the file located at <filepath>. if
+● **-i \<filename> :** The program parses and retrieves the data from the file located at \<filepath>. if
 the file is read successfully, the message "OK" is printed.
 
 ● **-j \[\<filename>\] :** Saves the tree's contents in JSON format to the file at \<filepath>. The presence of the \<filepath> file is optional. If it is not specified, the output is directed to stdout. 
